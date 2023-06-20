@@ -8,7 +8,7 @@
 
 ## Tabla de contenidos:
 ---
-- [Introducción](#Introduccion)
+- [Introducción](#introduccion)
 - [Problematica](#problematica)
 - [Requisitos](#requisitos)
 - [Diagrama de casos de uso](#diagrama-de-casos-de-uso)
