@@ -36,6 +36,14 @@
 
 ![DERE](https://github.com/eluqm/IS-3grupo4-2023/blob/main/img/diagrama_ER.png)
 
+## Modelo de la Base de datos
+
+![BD_model](https://github.com/eluqm/IS-3grupo4-2023/blob/main/img/modelo.png)
+
+## Modelo inicial para las vistas
+
+![vistas_model](https://github.com/eluqm/IS-3grupo4-2023/blob/main/views/vistas.pdf)
+
 ## Trello
 
 <img width="1440" alt="Screen Shot 2023-06-13 at 12 16 16 PM" src="https://github.com/eluqm/IS-3grupo4-2023/blob/main/img/trello.png">
