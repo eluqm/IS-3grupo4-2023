@@ -22,20 +22,20 @@
 
 ## Requisitos
 
-<img width="672" alt="Screen Shot 2023-06-13 at 12 03 55 PM" src="https://github.com/AlvaroTimo/IS3_ProyectoFinal_Grupo4/assets/64106470/41418766-96ae-49d5-9f48-419aec34a7a3">
+<img width="672" alt="Screen Shot 2023-06-13 at 12 03 55 PM" src="https://github.com/eluqm/IS-3grupo4-2023/blob/main/img/req_func.png">
 
-<img width="725" alt="Screen Shot 2023-06-13 at 12 04 24 PM" src="https://github.com/AlvaroTimo/IS3_ProyectoFinal_Grupo4/assets/64106470/e6be4c84-1d46-45a7-83c6-601da3170bb4">
+<img width="725" alt="Screen Shot 2023-06-13 at 12 04 24 PM" src="https://github.com/eluqm/IS-3grupo4-2023/blob/main/img/req_nofunc.png">
 
 
 ## Diagrama de casos de uso
-![casos de uso](https://github.com/AlvaroTimo/IS3_ProyectoFinal_Grupo4/assets/64106470/9d6dc39f-635d-42d5-8f5c-43d3831f4dd1)
+![casos de uso](https://github.com/eluqm/IS-3grupo4-2023/blob/main/img/casos_uso.png)
 
 
 ## Diagrama Entidad Relacion Extendido
 
 
-![DERE](https://github.com/AlvaroTimo/IS3_ProyectoFinal_Grupo4/assets/64106470/6776a9b1-34ee-43f8-94cd-db773480bd81)
+![DERE](https://github.com/eluqm/IS-3grupo4-2023/blob/main/img/diagrama_ER.png)
 
 ## Trello
 
-<img width="1440" alt="Screen Shot 2023-06-13 at 12 16 16 PM" src="https://github.com/AlvaroTimo/IS3_ProyectoFinal_Grupo4/assets/64106470/a44b4c4e-0653-4960-946d-f4fa22598735">
+<img width="1440" alt="Screen Shot 2023-06-13 at 12 16 16 PM" src="https://github.com/eluqm/IS-3grupo4-2023/blob/main/img/trello.png">
