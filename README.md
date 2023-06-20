@@ -30,7 +30,7 @@ Con UNSA-LUD, un sistema que se encarga del manejo de citas y un registro de inf
 ## Perspectiva
  - Las perspectivas que esperamos de nuestro producto es que sea capaz y funcional de ayudar a los estudiantes de la UNSA para su registro y consulta previa de forma mas eficiente y sencilla.
  - Se requiere este sistema de registro médico que permita alertar sobre las actividades médicas que se están llevando a cabo en un momento determinado. Los usuarios deben tener la capacidad de buscar su registros médicos de acuerdo a su necesidad, donde pueden ir a realizar sus consultas. Estos registros estarán organizados por CUI/Escuela. Además, los usuarios deben poder registrarse utilizando su correo electrónico institucional y una contraseña generada por su número de identificación médica.
- - -Esperamos que sea un programa fácil y sencillo de utilizar por el cliente, el estudiante y maestro que operen y hagan ejercicio de sus funciones.
+ - Esperamos que sea un programa fácil y sencillo de utilizar por el cliente, el estudiante y maestro que operen y hagan ejercicio de sus funciones.
 
 ## Requisitos
 
