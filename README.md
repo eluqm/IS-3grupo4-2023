@@ -42,7 +42,7 @@
 
 ## Modelo inicial para las vistas
 
-![vistas_model](https://github.com/eluqm/IS-3grupo4-2023/blob/main/views/vistas.pdf)
+[pdf con los modelos de las vistas](https://github.com/eluqm/IS-3grupo4-2023/blob/main/views/vistas.pdf)
 
 ## Trello
 
