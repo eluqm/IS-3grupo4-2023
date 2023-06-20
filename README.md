@@ -8,7 +8,7 @@
 
 ## Tabla de contenidos:
 ---
-
+- [Introducción](#Introduccion)
 - [Problematica](#problematica)
 - [Requisitos](#requisitos)
 - [Diagrama de casos de uso](#diagrama-de-casos-de-uso)
@@ -16,6 +16,10 @@
 - [Modelo de la Base de datos](#Modelo-de-la-Base-de-datos)
 - [Modelo inicial para las vistas](#Modelo-inicial-para-las-vistas)
 - [Trello](#trello)
+
+## Introducción
+Con UNSA-LUD, un sistema que se encarga del manejo de citas y un registro de información médica hacia los estudiantes, los usuarios finales tendrán la posibilidad de registrar y tener acceso sea dentro o fuera de la universidad, ademas de poder brindar información a cada escuela de los estados de salud de cada uno de sus estudiantes, teniendo asimismo la posibilidad de reportar errores al equipo de UNSA-LUD para su respectivo mantenimiento. El sistema tendrá diferentes tipos de acceso de usuario y administrador contemplado dentro de los casos de uso
+
 ## Problematica
 - En la actualidad, no se cuenta con una aplicacion que se encargue del manejo de citas y  un registro de información médica hacia los estudiantes.
 - La forma en la que se lleva hoy dia el registro de citas es muy desfasada.
