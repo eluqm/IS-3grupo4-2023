@@ -13,8 +13,8 @@
 - [Requisitos](#requisitos)
 - [Diagrama de casos de uso](#diagrama-de-casos-de-uso)
 - [Diagrama Entidad Relacion Extendido](#diagrama-entidad-relacion-extendido)
-- [Modelo de la Base de datos](Modelo-de-la-Base-de-datos)
-- [Modelo inicial para las vistas](Modelo-inicial-para-las-vistas)
+- [Modelo de la Base de datos](#Modelo-de-la-Base-de-datos)
+- [Modelo inicial para las vistas](#Modelo-inicial-para-las-vistas)
 - [Trello](#trello)
 ## Problematica
 - En la actualidad, no se cuenta con una aplicacion que se encargue del manejo de citas y  un registro de información médica hacia los estudiantes.
