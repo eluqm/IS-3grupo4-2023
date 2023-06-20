@@ -17,6 +17,7 @@
 - [Modelo de la Base de datos](#Modelo-de-la-Base-de-datos)
 - [Modelo inicial para las vistas](#Modelo-inicial-para-las-vistas)
 - [Trello](#trello)
+- [Documentación](#documentación)
 
 ## Introducción
 Con UNSA-LUD, un sistema que se encarga del manejo de citas y un registro de información médica hacia los estudiantes, los usuarios finales tendrán la posibilidad de registrar y tener acceso sea dentro o fuera de la universidad, ademas de poder brindar información a cada escuela de los estados de salud de cada uno de sus estudiantes, teniendo asimismo la posibilidad de reportar errores al equipo de UNSA-LUD para su respectivo mantenimiento. El sistema tendrá diferentes tipos de acceso de usuario y administrador contemplado dentro de los casos de uso
@@ -59,3 +60,7 @@ Con UNSA-LUD, un sistema que se encarga del manejo de citas y un registro de inf
 ## Trello
 
 <img width="1440" alt="Screen Shot 2023-06-13 at 12 16 16 PM" src="https://github.com/eluqm/IS-3grupo4-2023/blob/main/img/trello.png">
+
+## Documentación
+
+[Documento de Ingeniería de Requisitos](https://github.com/eluqm/IS-3grupo4-2023/blob/main/Documentacion.pdf)
