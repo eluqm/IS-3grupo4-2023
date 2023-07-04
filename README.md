@@ -71,7 +71,10 @@ Con UNSA-LUD, un sistema que se encarga del manejo de citas y un registro de inf
 ##Vistas Odontogtrama
 
 <img width="725" alt="Screen Shot 2023-06-13 at 12 04 24 PM" src="https://github.com/eluqm/IS-3grupo4-2023/blob/main/img/odo1.png">
-
+<img width="725" alt="Screen Shot 2023-06-13 at 12 04 24 PM" src="https://github.com/eluqm/IS-3grupo4-2023/blob/main/img/odo2.png">
+<img width="725" alt="Screen Shot 2023-06-13 at 12 04 24 PM" src="https://github.com/eluqm/IS-3grupo4-2023/blob/main/img/odo3.png">
+<img width="725" alt="Screen Shot 2023-06-13 at 12 04 24 PM" src="https://github.com/eluqm/IS-3grupo4-2023/blob/main/img/odo4.png">
+<img width="725" alt="Screen Shot 2023-06-13 at 12 04 24 PM" src="https://github.com/eluqm/IS-3grupo4-2023/blob/main/img/odo5.png">
 
 ## Documentación
 
