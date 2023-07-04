@@ -120,4 +120,3 @@ alter table hist_clin_antecedentes add foreign key (id_impresion_diagnost) refer
 alter table hist_clin_antecedentes add foreign key (id_antec ) references antecedentes(id_antec );
 alter table examen_fisico add foreign key (id_exam_f) references hist_clin_ingreso(id_impresion_diagnost);
     
-    
