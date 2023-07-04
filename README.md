@@ -63,37 +63,45 @@ Con UNSA-LUD, un sistema que se encarga del manejo de citas y un registro de inf
 
 ## VISTAS FRONTEND
 
-## -Vistas generales de la pagina Home:
+## Vistas generales de la pagina Home:
 
 <img width="1240" alt="Screen Shot 2023-06-13 at 12 04 24 PM" src="https://github.com/eluqm/IS-3grupo4-2023/blob/main/img/vista1.png">
-## -Vistas para el registro general:
+
+## Vistas para el registro general:
 
 <img width="1240" alt="Screen Shot 2023-06-13 at 12 04 24 PM" src="https://github.com/eluqm/IS-3grupo4-2023/blob/main/img/vista2.png">
-## -Vistas para selección de acceso para paciente o Médico:
+
+## Vistas para selección de acceso para paciente o Médico:
 
 <img width="1240" alt="Screen Shot 2023-06-13 at 12 04 24 PM" src="https://github.com/eluqm/IS-3grupo4-2023/blob/main/img/vista3.png">
-## -Vistas para iniciar sesión de Paciente:
+
+## Vistas para iniciar sesión de Paciente:
 
 <img width="1240" alt="Screen Shot 2023-06-13 at 12 04 24 PM" src="https://github.com/eluqm/IS-3grupo4-2023/blob/main/img/vista4.png">
-## -Vistas para iniciar sesión de Médico:
+
+## Vistas para iniciar sesión de Médico:
 
 <img width="1240" alt="Screen Shot 2023-06-13 at 12 04 24 PM" src="https://github.com/eluqm/IS-3grupo4-2023/blob/main/img/vista5.png">
 
 ## VISTAS ODONTOGRAMA
 
-## -Vistas generales del Odontograma: 
+## Vistas generales del Odontograma: 
 
 <img width="725" alt="Screen Shot 2023-06-13 at 12 04 24 PM" src="https://github.com/eluqm/IS-3grupo4-2023/blob/main/img/odo1.png">
-## -Vistas para la función de registroa de fracturas:
+
+## Vistas para la función de registroa de fracturas:
 
 <img width="725" alt="Screen Shot 2023-06-13 at 12 04 24 PM" src="https://github.com/eluqm/IS-3grupo4-2023/blob/main/img/odo2.png">
-## -Vitas para las partes o dientes restaurados:
+
+## Vistas para las partes o dientes restaurados:
 
 <img width="725" alt="Screen Shot 2023-06-13 at 12 04 24 PM" src="https://github.com/eluqm/IS-3grupo4-2023/blob/main/img/odo3.png">
-## -Vistas para la función registrar dientes extraídos:
+
+## Vistas para la función registrar dientes extraídos:
 
 <img width="725" alt="Screen Shot 2023-06-13 at 12 04 24 PM" src="https://github.com/eluqm/IS-3grupo4-2023/blob/main/img/odo4.png">
-## -Vistas de la función para registrar puente entre dientes:
+
+## Vistas de la función para registrar puente entre dientes:
 
 <img width="725" alt="Screen Shot 2023-06-13 at 12 04 24 PM" src="https://github.com/eluqm/IS-3grupo4-2023/blob/main/img/odo5.png">
 
