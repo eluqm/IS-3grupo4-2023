@@ -2,11 +2,13 @@ CREATE DATABASE UNSA_LUD;
 use UNSA_LUD;
 
 create table datos(
-	id_user integer primary key,
+	id_user integer primary key auto_increment,
+    usuario varchar(20),
+    contrasena varchar(255),
     nombres varchar(50),
     apellidos varchar(50),
     edad integer,
-    sexo varchar(1));
+    sexo varchar(10));
     
 create table datos_ingreso(
 	id_user integer primary key,
@@ -14,7 +16,7 @@ create table datos_ingreso(
     dni integer,
     procedencia varchar(30),
     estado_civil varchar(10),
-    fecha_nac date,
+    fecha_nac varchar(10),
     ocupacion varchar(15),
     domicilio varchar(30),
     correo_e varchar(30),
@@ -28,21 +30,21 @@ create table datos_personal(
     
 create table datos_odonto(
 	id_user integer primary key,
-    año integer,
+    ano integer,
     condicion varchar(20),
     id_escuela integer,
     id_facultad integer);    
     
 create table facultad(
-	id_fac integer primary key,
+	id_fac integer primary key auto_increment,
     nombre varchar(30));
 
 create table escuela_pro(
-	id_escuela integer primary key,
+	id_escuela integer primary key auto_increment,
     nombre varchar(30));
     
 create table ficha_aten_odonto(
-	id_ficha_odonto integer primary key,
+	id_ficha_odonto integer primary key auto_increment,
     odontograma blob,
     diagnostico varchar(200),
     id_user integer);
@@ -52,7 +54,7 @@ create table hist_clin_ingreso(
     id_user integer);
     
 create table examen_fisico(
-	id_exam_f integer primary key,
+	id_exam_f integer primary key auto_increment,
     indice_m_c varchar(10),
     temp integer,
     frec_resp integer,
@@ -62,7 +64,7 @@ create table examen_fisico(
     pres_art integer);
 
 create table tratamiento(
-	id_tratamiento integer primary key,
+	id_tratamiento integer primary key auto_increment,
     fecha date,
     hora time,
     operador varchar(30),
@@ -71,7 +73,7 @@ create table tratamiento(
     id_impresion_diagnost integer);
 
 create table signos_sintomas(
-	id_s_t integer primary key,
+	id_s_t integer primary key auto_increment,
     sintoma varchar(50));
 
 create table controles(

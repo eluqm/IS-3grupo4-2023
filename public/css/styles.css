@@ -1,0 +1,66 @@
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    text-align: center;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: url("https://images.ecestaticos.com/5w4jfQhuQhED6nnipQa_oH4g4bk=/0x109:2118x1302/1200x900/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2F8c6%2F528%2F642%2F8c65286423ba48132bd99e19e74501bf.jpg") no-repeat center center fixed;
+    background-size: cover;
+
+}
+
+.navbar {
+    background-color: #55acee;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar a {
+    margin-left: 10px;
+    padding: 8px 12px;
+    background-color: #ffffff;
+    color: #55acee;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.navbar a:hover {
+    background-color: #f2f2f2;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+h1 {
+    font-size: 36px;
+    color: #55acee;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    color: #555555;
+    margin-bottom: 20px;
+}
+
+.clinic-image {
+    margin-top: 40px;
+}
