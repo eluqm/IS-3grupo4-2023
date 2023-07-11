@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registro de Médico - Clínica Dental</title>
+    <link rel="stylesheet" type="text/css" href="../css/styles.css">
+    <link rel="stylesheet" type="text/css" href="../css/loginMedico.css">
+</head>
+<body>
+    <div class="navbar">
+        <a href="http://localhost:3000/">Home</a>
+        <a href="http://localhost:3000/authentication/register">Registrarse</a>
+        <a href="http://localhost:3000/authentication/login">Iniciar sesión</a>
+    </div>
+    <div class="container">
+        <div class="form-container">
+            <h2 class="form-title">Iniciar sesión como medico</h2>
+            <form action="/authentication/loginMedico" method="POST">
+                <div class="form-field">
+                    <label for="usuario">Usuario:</label>
+                    <input type="text" id="usuario" name="usuario" required>
+                </div>
+                <div class="form-field">
+                    <label for="contrasena">Contraseña:</label>
+                    <input type="text" id="contrasena" name="contrasena" required>
+                </div>
+                <div class="form-field">
+                    <input type="submit" value="Iniciar sesión">
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

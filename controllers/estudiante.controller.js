@@ -1,7 +1,7 @@
 const controller = {};
 
-controller.funcion1 = (req, res) => {
-  
+controller.mostrarHome = (req, res) => {
+    res.render('home', {usuario:req.usuario})
 };
 controller.funcion2 = (req, res) => {
 
