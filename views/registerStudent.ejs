@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ClinicaDental</title>
+    <link rel="stylesheet" type="text/css" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/register.css">
+
+</head>
+<body>
+    <div class="navbar">
+        <a href="http://localhost:3000/">Home</a>
+        <a href="http://localhost:3000/authentication/register">Registrarse</a>
+        <a href="http://localhost:3000/authentication/login">Iniciar sesión</a>
+    </div>
+    <div class="container">
+        <h1>Registrarse</h1>
+        <form action="/authentication/registerEstudiante" method="POST">
+            <label for="nombres">Nombres:</label>
+            <input type="text" id="nombres" name="nombres" required>
+            <label for="apellidos">Apellidos:</label>
+            <input type="text" id="apellidos" name="apellidos" required>
+            <label for="edad">Edad:</label>
+            <input type="text" id="edad" name="edad" required>
+            <label for="sexo">Sexo:</label>
+            <input type="text" id="sexo" name="sexo" required>
+            
+            <label for="usuario">Usuario:</label>
+            <input type="text" id="usuario" name="usuario" required>
+            <label for="contrasena">Contraseña:</label>
+            <input type="text" id="contrasena" name="contrasena" required>
+            
+            <input type="submit" value="Registrarse">
+        </form>
+    </div>
+</body>
+</html>

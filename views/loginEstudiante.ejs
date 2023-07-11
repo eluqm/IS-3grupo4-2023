@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registro de Estudiante - Clínica Dental</title>
+    <link rel="stylesheet" type="text/css" href="../css/styles.css">
+    <link rel="stylesheet" type="text/css" href="../css/loginEstudiante.css">
+</head>
+<body>
+    <div class="navbar">
+        <a href="http://localhost:3000/">Home</a>
+        <a href="http://localhost:3000/authentication/register">Registrarse</a>
+        <a href="http://localhost:3000/authentication/login">Iniciar sesión</a>
+    </div>
+    <div class="container">
+        <div class="form-container">
+            <h2 class="form-title">Iniciar sesión como estudiante</h2>
+            <form action="/authentication/loginEstudiante" method="POST">
+                <div class="form-field">
+                    <label for="usuario">Usuario:</label>
+                    <input type="text" id="usuario" name="usuario">
+                </div>
+                <div class="form-field">
+                    <label for="contrasena">Contraseña:</label>
+                    <input type="text" id="contrasena" name="contrasena">
+                </div>
+                <div class="form-field">
+                    <input type="submit" value="Iniciar sesión">
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+        
+        <% if(alert) { %>
+            <script>
+                Swal.fire({
+                    title: '<%= alertTitle %>',
+                    text: '<%= alertMessage %>',
+                    icon: '<%= alertIcon %>',
+                    showConfirmButton:  <%= showConfirmButton %>,
+                    timer: <%= timer %>
+                }).then(() => {
+                    window.location = '/<%= ruta %>'
+                })
+            </script>
+        <% } %>
+</body>
+</html>
