@@ -56,9 +56,6 @@ controller.loginEstudiante = async (req, res)=>{
                     //inicio de sesión OK
                     const id = results[0].id_user
 
-                    // console.log("Hola")
-                    // console.log(results[0].id_user)
-
                     const token = jwt.sign({id:id}, process.env.JWT_SECRETO, {
                         expiresIn: process.env.JWT_TIEMPO_EXPIRA
                     })
@@ -106,9 +103,11 @@ controller.isAuthenticated = async (req, res, next)=>{
             return next()
         }
     }else{
-        res.redirect('/login')        
+        res.redirect('/authentication/login')        
     }
 }
+
+
 controller.logout = (req, res) =>{
     res.clearCookie('jwt')   
     return res.redirect('../')
