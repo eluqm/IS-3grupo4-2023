@@ -30,25 +30,11 @@ app.use(express.json());
 // app.use(cors())
 app.use(morgan('dev'));
 
-// //variables de entorno
+// variables de entorno
 // dotenv.config({ path: './env/.env'});
 
 //para poder trabajar con las cookies
 app.use(cookieParser())
-
-
-// app.use(
-//   myConnection(
-//     mysql,
-//     {
-//       host: process.env.DB_HOST,
-//       user: process.env.DB_USER,
-//       password: process.env.DB_PASSWORD,
-//       database: process.env.DB_DATABASE,
-//     })
-// );
-
-
 
 //rutas
 routerApi(app);

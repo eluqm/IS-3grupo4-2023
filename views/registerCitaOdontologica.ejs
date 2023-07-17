@@ -8,8 +8,8 @@
     <meta name="generator" content="Hugo 0.87.0">
     <title>Clinica Dental</title>
     <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    
     <style>
         .bd-placeholder-img {
             font-size: 1.125rem;
@@ -28,7 +28,8 @@
 
 
     <!-- Custom styles for this template -->
-    <link href="css/dashboard.css" rel="stylesheet">
+    <link href="../css/dashboard.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/register.css">
 </head>
 
 <body>
@@ -95,31 +96,34 @@
 
             <!-- Contenido principal   -->
             <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
-                <div
-                    class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
-                    <h2>Dashboard</h2>
-                    <h2>Bienvenido:
-                        <% if (usuario) { %>
-                            <span class="badge bg-success">
-                                <%= usuario.nombres %>
-                            </span>
-                        <% } %>
-                    </h2>
-                </div>
+                <h1>Registrar Historial Clinico</h1>
+                <form action="/estudiante/registrarCitaOdontologica" method="POST">
+                    <label for="ano">Año:</label>
+                    <input type="text" id="ano" name="ano" required>
+                    <label for="condicion">Condicion:</label>
+                    <input type="text" id="condicion" name="condicion" required>
+        
+                    <label for="escuela">Escuela:</label>
+                    <input type="text" id="escuela" name="escuela" required>
+                    <label for="facultad">Facultad:</label>
+                    <input type="text" id="facultad" name="facultad" required>
+                    
+                    <input type="submit" value="Registrarse">
+                </form>
 
 
             </main>
         </div>
     </div>
 
-    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="../js/bootstrap.bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/feather-icons@4.28.0/dist/feather.min.js"
         integrity="sha384-uO3SXW5IuS1ZpFPKugNNWqTZRRglnUJK6UAZ/gxOX80nxEkN9NcGZTftn6RzhGWE"
         crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.4/dist/Chart.min.js"
         integrity="sha384-zNy6FEbO50N+Cg5wap8IKA4M/ZnLJgzc6w2NqACZaK0u0FXfOWRRJOnQtpZun8ha"
         crossorigin="anonymous"></script>
-    <script src="js/dashboard.js"></script>
+    <script src="../js/dashboard.js"></script>
 </body>
 
 </html>
