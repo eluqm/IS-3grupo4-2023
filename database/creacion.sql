@@ -103,6 +103,35 @@ create table hist_clin_antecedentes(
 	id_impresion_diagnost integer,
     id_antec integer,
     primary key(id_impresion_diagnost, id_antec));
+    
+create table dientes(
+	id_diente integer primary key,
+    seccion1 varchar(15),
+    seccion2 varchar(15),
+    seccion3 varchar(15),
+    seccion4 varchar(15),
+    seccion5 varchar(15),
+    estraccion bool
+);
+
+drop table dientes;
+SELECT * FROM dientes;
+
+CALL ini_dientes();
+
+DELIMITER $$
+CREATE PROCEDURE ini_dientes()
+BEGIN
+  DECLARE counter INTEGER DEFAULT 0;
+  my_loop: LOOP
+    SET counter=counter+1;
+    IF counter=33 THEN
+      LEAVE my_loop;
+    END IF;
+    INSERT INTO dientes VALUES(counter, 'sano', 'sano', 'sano', 'sano', 'sano', false);
+  END LOOP my_loop;
+END$$
+DELIMITER ;
 
 alter table datos_ingreso add foreign key (id_user) references datos(id_user);
 alter table datos_ingreso add foreign key (id_fac) references facultad(id_fac);
