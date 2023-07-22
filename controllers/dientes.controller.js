@@ -8,7 +8,7 @@ app.use(bodyParser.json());
 
 var diente;
 // Ruta para recibir los datos enviados desde el cliente
-app.post('/datos_fractura', (req, res) => {
+app.post('/odontograma', (req, res) => {
     // Obtener los datos enviados desde el cliente
     const datosRecibidos = req.body;
     diente = req.body;
@@ -20,12 +20,12 @@ app.post('/datos_fractura', (req, res) => {
 });
 
 controller.funcion2 = (req, res) => {
-    console.log(diente);
+    console.log(req.body);
 };
 
 controller.funcion3 = (req, res) => {
 
-}
+};
 
 module.exports = controller;
 
