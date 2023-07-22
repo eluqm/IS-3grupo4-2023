@@ -7,15 +7,10 @@ const bodyParser = require('body-parser');
 app.use(bodyParser.json());
 
 var diente;
-// Ruta para recibir los datos enviados desde el cliente
 app.post('/odontograma', (req, res) => {
-    // Obtener los datos enviados desde el cliente
     const datosRecibidos = req.body;
     diente = req.body;
-    // Aquí puedes hacer lo que necesites con los datos recibidos,
-    // por ejemplo, guardarlos en una base de datos, realizar operaciones, etc.
     console.log(datosRecibidos);
-    // En este ejemplo, simplemente respondemos al cliente con un mensaje de éxito.
     res.send('Datos recibidos correctamente');
 });
 
