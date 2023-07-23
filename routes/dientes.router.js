@@ -22,7 +22,7 @@ app.get('/odontograma', (req, res) => {
 // router.get('/ruta3',controller.funcion3)
 // router.post('/',controller.funcion2)
 
-router.post('/', controller.funcion2);
+router.post('/', controller.estadoDiente);
 
 // module.exports = router;
 

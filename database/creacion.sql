@@ -111,7 +111,7 @@ create table dientes(
     seccion3 varchar(15),
     seccion4 varchar(15),
     seccion5 varchar(15),
-    estraccion bool
+    extraccion bool
 );
 
 drop table dientes;

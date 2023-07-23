@@ -566,7 +566,21 @@
                         marcar_extraccion(ctx2, diente, 'black')
                         console.log(accion);
                         console.log(diente);
-                        // llamada based de datos
+                        // llamada base de datos
+                        tipo = 'extraccion';
+                        const datos = {
+                            diente,
+                            seleccion,
+                            tipo
+                        };
+                        // extraccion
+                        fetch('/odontograma', {
+                            method: 'POST',
+                            headers: {
+                                'Content-Type': 'application/json'
+                            },
+                            body: JSON.stringify(datos)
+                        });
                     }else{
                         alert("Ya fue marcado");
                     }
@@ -612,7 +626,7 @@
                     borrar_diente(ctx2, diente);
                     //cargar el ultimo pintado
                     seccion_chk = $("input[name='seccion']:checked").val();
-                    if (seccion_chk=='seccion'){
+                    if (seccion_chk=='seccion'){        // para fractura y restauracion
                         x = x-((div*40) + (10*div) + 10);
                         y = y-20;
                         if (diente>16){
@@ -648,8 +662,25 @@
                                 localStorage.removeItem(key_cod);
                             }
                         }
-
-                    }else if(seccion_chk=='diente'){
+                        console.log(accion);
+                        console.log(diente);
+                        console.log(seccion_b);
+                        var tipo = 'seccion';
+                        const datos = {
+                            diente,
+                            seccion_b,
+                            seleccion,
+                            tipo
+                        };
+                        // borrar fractura o resturacion
+                        fetch('/odontograma', {
+                            method: 'POST',
+                            headers: {
+                                'Content-Type': 'application/json'
+                            },
+                            body: JSON.stringify(datos)
+                        });
+                    }else if(seccion_chk=='diente'){        // para extracion
                         ultimo = '';
                         key_cod='';
                         for(var i=0; i < localStorage.length; i++){
@@ -676,6 +707,22 @@
                             //console.log(key_cod);
                             localStorage.removeItem(key_cod);
                         }
+                        console.log(accion);
+                        console.log(diente);
+                        var tipo = 'extraccion';
+                        const datos = {
+                            diente,
+                            seleccion,
+                            tipo
+                        };
+                        // borrar extraccion
+                        fetch('/odontograma', {
+                            method: 'POST',
+                            headers: {
+                                'Content-Type': 'application/json'
+                            },
+                            body: JSON.stringify(datos)
+                        });
                     }
                     //alert('a');
                     pinta_datos();
@@ -693,30 +740,41 @@
                 // llamada base de datos
                 if (color=='red'){
                     cod=diente+'-'+seccion+'-'+'1';
-                    accion_g = 1;   // para fractura
-                    if(seccion == 1)
-                    {
-                        const datos = {
-                            diente,
-                            seccion
-                        };
-                        fetch('/odontograma', {
+                    accion_g = 1;                   // para fractura
+                    // var seleccion = 'fractura';
+                    var tipo = 'fractura';
+                    const datos = {
+                        diente,
+                        seccion,
+                        seleccion,
+                        tipo
+                    };
+                    // inserta fractura
+                    fetch('/odontograma', {
                         method: 'POST',
                         headers: {
                             'Content-Type': 'application/json'
                         },
                         body: JSON.stringify(datos)
                     });
-                        // var estado = 'fractura';
-                        // var sql = 'UPDATE dientes SET seccion1 = ? WHERE id_diente= ?';
-                        // conexion.query(sql, [estado, diente], async (error, results)=>{
-                        //     if(error) console.log(error)
-                        //     return results.insertId;
-                        // })
-                    }
                 }else if (color=='blue'){
                     cod=diente+'-'+seccion+'-'+'2';
-                    accion_g = 2;   // para restauracion
+                    accion_g = 2;                   // para restauracion
+                    var tipo = 'restauracion';
+                    const datos = {
+                        diente,
+                        seccion,
+                        seleccion,
+                        tipo
+                    };
+                    // inserta restauracion
+                    fetch('/odontograma', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json'
+                        },
+                        body: JSON.stringify(datos)
+                    });
                 };
                 if(cod && !localStorage.getItem(cod)){
                     new_array=[diente, seccion, accion_g, Date.now(), 0];
@@ -742,6 +800,7 @@
                     for(var i=0; i < localStorage.length; i++){
                         var key_name = localStorage.key(i);
                         item = localStorage.getItem(key_name);
+                        console.log(item); // puente
                         item = item.split(',');
                         diente1_comp = parseInt(item[0],10);
                         diente2_comp = parseInt(item[4],10);
@@ -773,7 +832,7 @@
                         }
                     }
                     if(key_cod!=''){
-                        //console.log(key_cod);
+                        // console.log(key_cod);
                         if(parseInt(ultimo[0],10)<16){
                             seccion_p=1;
                             ctx4.clearRect(0, 0, 810, 130);
