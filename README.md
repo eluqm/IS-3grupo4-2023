@@ -108,3 +108,16 @@ Con UNSA-LUD, un sistema que se encarga del manejo de citas y un registro de inf
 ## Documentación
 
 [Documento de Ingeniería de Requisitos](https://github.com/eluqm/IS-3grupo4-2023/blob/main/Documentacion.pdf)
+
+## Caso de prueba (Odontograma)
+
+- Abrir el odontograma del paciente.
+- Seleccionar un diente en el odontograma para registrar un problema dental.
+- Elegir un tipo de problema (por ejemplo, caries, fractura, ausencia de diente, etc.).
+- Ingresar detalles adicionales sobre el problema si es necesario.
+- Guardar la entrada del problema dental en el odontograma.
+- Verificar que la entrada se muestra correctamente en el odontograma.
+### Resultado esperado
+La entrada del problema dental se registra y muestra correctamente en el odontograma del paciente
+
+
